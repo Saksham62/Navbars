@@ -23,11 +23,11 @@ ul li a{
     font-size: 20px;
 }
 
-ul li ul.dropdown li{
+.dropdown li{
     display: block;
 }
 
-ul li ul.dropdown{
+.dropdown{
     width: 100%;
     background: #22438C;
     position: absolute;
@@ -39,6 +39,6 @@ ul li a:hover{
     background: #112C66;
 }
 
-ul li:hover ul.dropdown{
+ul li:hover .dropdown{
     display: block;
 }
